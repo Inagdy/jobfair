@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  #filterInput {
+    margin-bottom: 20px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  #chartContainer {
+    margin-top: 20px;
+  }
+  .chart-container {
+    position: relative;
+    margin: auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+/* Style the canvas element */
+
+
